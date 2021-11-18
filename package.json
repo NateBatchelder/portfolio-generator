@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "node ./test/sample.js",
     "start": "node app.js"
   },
   "keywords": [],
