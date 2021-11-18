@@ -2,10 +2,9 @@
 // console.log(profileDataArgs);
 
 const profileData = require('./profile.js')(profileDataArgs);
-const generatePage = () => 'Name: Jane, Github; janehub';
 
-const generatePage = (userName, githubName) =>
-  `Name: ${userName}, Github: ${githubName}`;
+
+const generatePage = (userName, githubName) => `Name: ${userName}, Github: ${githubName}`;
 
 
 
